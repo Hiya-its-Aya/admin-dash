@@ -7,52 +7,119 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div id="container">
-        <div class="header">
-            <div class="top-container">
-                <div class="searchbar">
-                    <object data="svg/magnify.svg"></object>
-                    <input class="search" type="text" placeholder="Search...">
-                </div>
-                <div class="alert-acct">
-                    <object data="svg/bell-ring-outline.svg"></object>
-                    <!-- picture -->
-                    <div class="name">Name Here</div>
-                </div>
+    <div id="header">
+        <div class="top-container">
+            <div class="searchbar">
+                <object data="svg/magnify.svg"></object>
+                <input class="search" type="text" placeholder="Search...">
             </div>
-            <div class="bottom-container">
-                <div class="acct">
-                    <!-- picture -->
-                    <div class="hi">Hi there, </div>
-                    <div class="acct-name"> Name Here (@name)</div>
-                </div>
-                <div class="post-action">
-                    <button id="new">New</button>
-                    <button id="upload">Upload</button>
-                    <button id="Share">Share</button>
-                </div>
+            <div class="alert-acct">
+                <object data="svg/bell-ring-outline.svg"></object>
+                <img class="acct-avi" src="img/ocean.jpg" alt="user avatar">
+                <div class="name">Name Here</div>
             </div>
         </div>
-        <div class="sidebar">
-            <ul id="main-list">
-                <li>Home</li>
-                <li>Profile</li>
-                <li>Messages</li>
-                <li>History</li>
-                <li>Tasks</li>
-                <li>Communities</li>
-            </ul>
+        <div class="bottom-container">
+            <div class="acct">
+                <img class="acct-avi" id="hello" src="img/ocean.jpg" alt="user avatar">
+                <div class="hi">Hi there, </div>
+                <div class="acct-name"> Name Here (@name)</div>
+            </div>
+            <div class="post-action">
+                <button id="new">New</button>
+                <button id="upload">Upload</button>
+                <button id="Share">Share</button>
+            </div>
+        </div>
+    </div>
+    <div id="sidebar">
+        <div class="dash-top">
+            <object data="svg/application-brackets-outline.svg" class="dash-pic"></object>
+            <div class="dash-title">Dashboard</div>
+        </div>
+        <ul id="main-list">
+            <li>Home</li>
+            <li>Profile</li>
+            <li>Messages</li>
+            <li>History</li>
+            <li>Tasks</li>
+            <li>Communities</li>
+        </ul>
 
-            <ul id="settings-list">
-                <li>Settings</li>
-                <li>Support</li>
-                <li>Privacy</li>
-            </ul>
+        <ul id="settings-list">
+            <li>Settings</li>
+            <li>Support</li>
+            <li>Privacy</li>
+        </ul>
+    </div>
+    <div id="main-container">
+        <div class="projects">
+            <div id="card">
+                <div class="title">Super Cool App</div>
+                <p class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum et cumque odio. Nobis adipisci necessitatibus consectetur laborum quod mollitia quam, minus, neque eius pariatur ullam alias saepe consequatur, reiciendis unde?</p>
+                <div class="actions"></div>
+            </div>
+            <div id="card">
+                <div class="title">Less Cool App</div>
+                <p class="info">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi sunt quas expedita cupiditate labore animi explicabo cum architecto eum id exercitationem necessitatibus maxime sapiente amet, pariatur modi tenetur vitae. Reprehenderit!</p>
+                <div class="actions"></div>
+            </div>
+            <div id="card">
+                <div class="title">Impossible App</div>
+                <p class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, ipsam. Pariatur ut, ipsa quasi numquam incidunt aspernatur et rerum! Asperiores repellendus accusantium et aliquam, cupiditate iste voluptate rem quisquam maxime.</p>
+                <div class="actions"></div>
+            </div>
+            <div id="card">
+                <div class="title">Easy Peasy App</div>
+                <p class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quibusdam culpa ut necessitatibus vel, voluptatum voluptate, qui architecto corrupti dolores amet aut consequatur, totam dolorem. Cum nemo voluptas architecto ea.</p>
+                <div class="actions"></div>
+            </div>
+            <div id="card">
+                <div class="title">Ad Blocker</div>
+                <p class="info">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero, maiores earum facere nostrum quidem nemo nam excepturi quaerat, exercitationem, temporibus id. Error temporibus architecto amet blanditiis! Dolore itaque laudantium qui.</p>
+                <div class="actions"></div>
+            </div>
+            <div id="card">
+                <div class="title">Money Maker</div>
+                <p class="info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero doloribus, dolorum repudiandae dolor doloremque, perferendis odit asperiores officia dignissimos laudantium nostrum voluptatum ipsam commodi ullam! Possimus aut optio odio quod.</p>
+                <div class="actions"></div>
+            </div>
         </div>
-        <div class="main-container">
-            <div class="projects"></div>
-            <div class="announcements"></div>
-            <div class="trending"></div>
+        <div class="announcements">
+            <div id="ann-card">
+                <div class="ann-title">Site Maintainence</div>
+                <p class="ann-info">Lorem ipsum, dolor sit amet consectetur adipisicing elit...</p>
+            </div>
+            <div id="ann-card">
+                <div class="ann-title">Community Share Day</div>
+                <p class="ann-info">Lorem ipsum, dolor sit amet consectetur adipisicing elit...</p>
+            </div>
+            <div id="ann-card">
+                <div class="ann-title">Updated Privacy Policy</div>
+                <p class="ann-info">Lorem ipsum, dolor sit amet consectetur adipisicing elit...</p>
+            </div>      
+        </div>
+        <div class="trending">
+            <div class="trend-card">
+                <img src="img/cat-burger.jpg" alt="user avatar">
+                <div class="user-name">@person1</div>
+                <div class="app-name">World Peace Builder</div>
+            </div>
+            <div class="trend-card">
+                <img src="img/elephant.jpg" alt="user avatar">
+                <div class="user-name">@person2</div>
+                <div class="app-name">Life-Changeing App</div>
+            </div>
+            <div class="trend-card">
+                <img src="img/ocean.jpg" alt="user avatar">
+                <div class="user-name">@name</div>
+                <div class="app-name">Super Cool Project</div>
+            </div>
+            <div class="trend-card">
+                <img src="img/catfish.jpg" alt="user avatar">
+                <div class="user-name">@person3</div>
+                <div class="app-name">No Traffic Maker</div>
+            </div>
         </div>
     </div>
 </body>
