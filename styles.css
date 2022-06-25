@@ -48,7 +48,7 @@ body{
     padding: 5px;
     border: .5px solid grey;
     border-radius: 25px;
-    background-color: rgba(128, 128, 128, 0.137);
+    background-color: rgba(128, 128, 128, 0.3);
     flex: 1;
     padding-left: 15px;
     margin-left: 5%;
@@ -135,7 +135,7 @@ svg{
 #main-container{
     grid-row: 2/6;
     grid-column: 2/5;
-    background-color: rgba(128, 128, 128, 0.137);
+    background-color: rgba(128, 128, 128, 0.3);
     padding: 1rem;
     display: grid;
     grid-template-columns: repeat(5,1fr);
@@ -158,23 +158,17 @@ svg{
     padding: 1rem;
     border-radius: 10px;
     box-shadow:  3px 3px 3px -2px gray;
-}
-
-#card{
     background-color: white;
 }
 
 .announcements{
     grid-column: 5/6;
     grid-row: 1/2;
-    background-color: white;
 }
 
 .trending{
     grid-column: 5/6;
     grid-row: 2/3;
-    background-color: white;
-    
 }
 
 /* ---------------------- Misc ------------------ */
